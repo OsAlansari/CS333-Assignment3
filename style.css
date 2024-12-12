@@ -1,0 +1,52 @@
+/*Done by:
+Osama Anwar Alansari      202103778
+Mohammed Hussain Haouas   20194952
+It is the same CSS as assignment 2*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000060;
+}
+
+table {
+    width: 80%; 
+    max-width: 1000px; 
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table td{
+    color: #000060;
+}
+
+table th{
+    background-color: #000060;
+    color: white;
+}
+
+table th, table td{
+    border: 1px solid #8b8b8b;
+    padding: 12px;
+    text-align: center;
+}
+@media (max-width: 480px) {
+    table {
+        width: 100%;
+    }
+
+    table th, table td {
+        padding: 4px;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
